@@ -1,0 +1,28 @@
+{
+  "name": "orbit-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"No test!!!\""
+  },
+  "author": "Harkl",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "ipfs": "^0.55.3",
+    "morgan": "^1.10.0",
+    "orbit-db": "^0.26.1",
+    "orbit-db-identity-provider": "^0.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
